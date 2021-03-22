@@ -1,0 +1,38 @@
+.titulo {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: rgb(3, 192, 250);
+    color: white;
+}
+
+.formulario {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    background: rgb(7, 185, 240);
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.btn input {
+    background: rgb(0, 113, 218);
+    color: white;
+    width: 100px;
+}
+
+input {
+    width: 250px;
+}
+
+label {
+    color: white;
+}
