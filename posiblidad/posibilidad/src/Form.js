@@ -33,7 +33,7 @@ class Form extends Component {
         return (
             <form onSubmit={this.onFormSubmit}>
                 <label for="name">Nombre</label>
-                <input 
+                <input
                     type="text" 
                     name="name" 
                     id="name"
