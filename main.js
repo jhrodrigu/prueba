@@ -1,15 +1,13 @@
-const express = require("express")
-const app = express()
-const path = require('path')
+const express = require("express");
+const app = express();
+const path = require('path');
 
-app.get('/', (req, res, next) => {
-    res.sendFile(__dirname + "/index.html")
-})
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(express.urlencoded({ extended: false }));
 
 
-app.get('/enviar', (req, res) => {
+app.post('/enviar', (req, res) => {
     console.log(req.body);
     res.send('recibido');
 })
